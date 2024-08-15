@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorAccent"
+    tools:context=".ui.search.SearchFragment">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="60dp"
+        android:paddingHorizontal="25dp">
+    <TextView
+        android:id="@+id/text_search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/title_search"
+        android:textStyle="bold"
+        android:textSize="40sp"
+        android:textColor="@color/colorPrimary"
+         />
+    <EditText
+        android:background="@drawable/button_rounded_white"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:drawableStart="@drawable/ic_search"
+        android:drawablePadding="10dp"
+        android:paddingStart="10dp"
+        android:id="@+id/Inputsearch"
+        android:hint="@string/Inputsearch"
+        android:layout_marginTop="10dp"
+        android:textColorHint="@color/colorPrimary"
+        />
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp"
+        android:columnCount="2"
+        >
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/categoryClothes"
+            android:id="@+id/btn_category_clothes"
+            android:textColor="@color/colorPrimary"
+            android:background="@drawable/button_border"
+            android:layout_marginEnd="25dp"
+            android:drawableTop="@drawable/ic_clothes_category"
+            android:padding="10dp"
+            android:layout_columnWeight="1"
+
+            />
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/categoryElectronics"
+            android:id="@+id/btn_category_electronics"
+            android:textColor="@color/colorPrimary"
+            android:background="@drawable/button_border"
+            android:drawableTop="@drawable/ic_electronics_category"
+            android:padding="10dp"
+            android:layout_columnWeight="1"
+            />
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/categoryChildren"
+            android:id="@+id/btn_category_children"
+            android:textColor="@color/colorPrimary"
+            android:background="@drawable/button_border"
+            android:layout_marginEnd="25dp"
+            android:drawableTop="@drawable/ic_children_category"
+            android:padding="10dp"
+            android:layout_columnWeight="1"
+            android:layout_marginTop="25dp"
+            />
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/categoryHome"
+            android:id="@+id/btn_category_electronicss"
+            android:textColor="@color/colorPrimary"
+            android:background="@drawable/button_border"
+            android:drawableTop="@drawable/ic_clothes_category"
+            android:padding="10dp"
+            android:layout_columnWeight="1"
+            android:layout_marginTop="25dp"
+            />
+
+    </GridLayout>
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+</ScrollView>
