@@ -5,7 +5,6 @@
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".LoginFragment"
-    android:background="#fff"
     android:orientation="vertical">
 
     <androidx.appcompat.widget.LinearLayoutCompat
@@ -28,20 +27,20 @@
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:paddingStart="10dp"
-            android:hint="Usuario"
+            android:hint="@string/Usuario"
             android:layout_marginTop="60dp"
             android:inputType="text"
-            android:id="@+id/usuario"
+            android:id="@+id/Usuario"
             android:background="@drawable/button_border" />
 
         <EditText
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:paddingStart="10dp"
-            android:hint="Correo"
+            android:hint="@string/Email"
             android:layout_marginTop="20dp"
             android:inputType="textEmailAddress"
-            android:id="@+id/email"
+            android:id="@+id/Email"
             android:background="@drawable/button_border"
 
             />
@@ -54,10 +53,10 @@
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:paddingStart="10dp"
-                android:hint="Contraseña"
+                android:hint="@string/Password"
                 android:inputType="textPassword"
                 android:layout_marginTop="20dp"
-                android:id="@+id/paswoord"
+                android:id="@+id/Password"
                 android:background="@drawable/button_border"
                 />
         </com.google.android.material.textfield.TextInputLayout>

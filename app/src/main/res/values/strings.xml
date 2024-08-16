@@ -5,7 +5,9 @@
     <string name="title_home">Inicio</string>
     <string name="title_search">Buscar</string>
     <string name="title_profile">Perfil</string>
-
+    <string name="Usuario">Usuario</string>
+    <string name="Email">Correo</string>
+    <string name="Password">Contraseña</string>
     <string name="title_home_category">Artículos populares</string>
 
     //fragment_search
