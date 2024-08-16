@@ -101,7 +101,7 @@ public class RegistrarseFragment extends Fragment {
                         userData.put("USUARIO", usuario);
                         userData.put("EMAIL", email);
                         userData.put("PASSWORD" ,password);
-                        userData.put("ROL", "Admin");
+                        userData.put("ROL", "Cliente");
 
                         FirebaseDatabase db = FirebaseDatabase.getInstance();
                         DatabaseReference reference = db.getReference("Usuarios");
