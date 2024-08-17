@@ -5,12 +5,14 @@
     <string name="title_home">Inicio</string>
     <string name="title_search">Buscar</string>
     <string name="title_profile">Perfil</string>
+    <string name="title_profile_details">Perfil</string>
     <string name="Usuario">Usuario</string>
     <string name="Email">Correo</string>
     <string name="Password">Contraseña</string>
 
 
     <string name="registrarse">Registrarse</string>
+    <string name="registrar_admin">Registrar administrador</string>
     <string name="logout">Cerrar sesión</string>
 
     <string name="hello_blank_fragment">Hello Blank Fragment</string>

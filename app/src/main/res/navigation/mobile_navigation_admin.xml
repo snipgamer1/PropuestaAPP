@@ -14,7 +14,7 @@
         />
     <fragment
         android:id="@+id/navigation_add_admin"
-        android:name="com.example.propuesta.RegistrarseFragment"
+        android:name="com.example.propuesta.RegistrarAdmin"
         android:label="@string/title_admin_add_user"
         tools:layout="@layout/fragment_registrarse"
         />

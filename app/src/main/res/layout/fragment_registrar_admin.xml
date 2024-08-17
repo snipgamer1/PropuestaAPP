@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context=".LoginFragment"
+    tools:context=".RegistrarAdmin"
     android:background="@color/colorAccent"
     android:orientation="vertical">
 
@@ -18,7 +18,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/registrarse"
+            android:text="@string/registrar_admin"
             android:textSize="35dp"
             android:textColorHighlight="@color/black"
             android:textStyle="bold"
@@ -30,8 +30,8 @@
             android:layout_height="50dp"
             android:paddingStart="10dp"
             android:hint="@string/Usuario"
-            android:textColor="#000"
             android:textColorHint="#000"
+            android:textColor="#000"
             android:layout_marginTop="60dp"
             android:inputType="text"
             android:id="@+id/Usuario"
@@ -42,8 +42,8 @@
             android:layout_height="50dp"
             android:paddingStart="10dp"
             android:hint="@string/Email"
-            android:textColor="#000"
             android:textColorHint="#000"
+            android:textColor="#000"
             android:layout_marginTop="20dp"
             android:inputType="textEmailAddress"
             android:id="@+id/Email"
