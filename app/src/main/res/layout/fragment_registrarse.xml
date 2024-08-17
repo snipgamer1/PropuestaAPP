@@ -20,6 +20,7 @@
             android:layout_height="wrap_content"
             android:text="@string/registrarse"
             android:textSize="35dp"
+            android:textColorHighlight="@color/black"
             android:textStyle="bold"
             android:textColor="@color/colorPrimary"
 
