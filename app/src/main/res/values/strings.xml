@@ -9,6 +9,10 @@
     <string name="Email">Correo</string>
     <string name="Password">Contraseña</string>
 
+
+    <string name="registrarse">Registrarse</string>
+    <string name="logout">Cerrar sesión</string>
+
     <string name="hello_blank_fragment">Hello Blank Fragment</string>
 
     //fragment_search
@@ -33,6 +37,12 @@
     <string name="title_profile_articles">Mis articulos</string>
     <string name="username">Luisa</string>
     <string name="description">Hola! Aquí se vende</string>
+
+    //activity_main_admin
+    <string name="title_admin_add">Registrar</string>
+    <string name="title_admin_home">Inicio Admin</string>
+    <string name="title_admin_add_user">Registrar Usuarios</string>
+    <string name="title_profile_admin">Perfil Admin</string>
 
 
 </resources>

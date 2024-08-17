@@ -104,7 +104,7 @@ public class LoginFragment extends Fragment {
                                                     String rol = task.getResult().getValue(String.class);
                                                     Log.d("Login", "Rol del usuario: " + rol);
                                                     if ("Admin".equals(rol)) {
-                                                        Intent intent = new Intent(getActivity(), AdminActivity.class);
+                                                        Intent intent = new Intent(getActivity(), MainActivityAdmin.class);
                                                        startActivity(intent);
                                                         getActivity().finish();
                                                     } else if ("Cliente".equals(rol)) {

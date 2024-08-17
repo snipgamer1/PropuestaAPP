@@ -34,7 +34,7 @@ import java.util.HashMap;
 public class RegistrarseFragment extends Fragment {
 
     EditText Usuario, Email, Password;
-    Button btn_iniciarSesion;
+    Button btn_registrarse;
 
     FirebaseAuth firebaseAuth;
 
@@ -47,11 +47,11 @@ public class RegistrarseFragment extends Fragment {
         Usuario = view.findViewById(R.id.Usuario);
         Email = view.findViewById(R.id.Email);
         Password = view.findViewById(R.id.Password);
-        btn_iniciarSesion = view.findViewById(R.id.btn_iniciarSesion);
+        btn_registrarse = view.findViewById(R.id.btn_registrarse);
 
         firebaseAuth = FirebaseAuth.getInstance();
 
-        btn_iniciarSesion.setOnClickListener(new View.OnClickListener() {
+        btn_registrarse.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 String usuario = Usuario.getText().toString();

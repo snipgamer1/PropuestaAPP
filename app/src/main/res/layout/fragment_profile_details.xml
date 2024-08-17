@@ -21,6 +21,15 @@
         android:textColor="@color/colorPrimary"
         android:textSize="40sp"
         android:textStyle="bold" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginEnd="25dp"
+            android:id="@+id/btnlogout"
+            android:text="@string/logout"
+            />
     <androidx.appcompat.widget.LinearLayoutCompat
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
