@@ -10,7 +10,7 @@
         android:id="@+id/navigation_home_admin"
         android:name="com.example.propuesta.adminUi.Home_admin"
         android:label="@string/title_admin_home"
-        tools:layout="@layout/admin"
+        tools:layout="@layout/fragment_home_admin" />
         />
     <fragment
         android:id="@+id/navigation_add_admin"

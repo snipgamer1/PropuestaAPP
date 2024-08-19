@@ -46,5 +46,15 @@
     <string name="title_admin_add_user">Registrar Usuarios</string>
     <string name="title_profile_admin">Perfil Admin</string>
 
+    //inicioAdmin
+    <string name="fotos">Fotos</string>
+    <string name="titulo">Titulo</string>
+    <string name="descripcion">Descripción</string>
+    <string name="categoria">Categoria</string>
+    <string name="marca">Marca</string>
+    <string name="addImage">+ Añadir</string>
+    <string name="addArticle">Añadir articulo</string>
+
+
 
 </resources>

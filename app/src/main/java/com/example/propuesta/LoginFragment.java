@@ -48,6 +48,9 @@ public class LoginFragment extends Fragment {
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_login, container, false);
+
+
+
         Email = view.findViewById(R.id.Email);
         Password = view.findViewById(R.id.Password);
         btn_iniciarSesion = view.findViewById(R.id.btn_iniciarSesion);
@@ -57,6 +60,10 @@ public class LoginFragment extends Fragment {
         progressDialog = new ProgressDialog(getActivity());
         progressDialog.setMessage("Ingresando, espere por favor");
         progressDialog.setCancelable(false);
+
+
+
+
 
         btn_iniciarSesion.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -149,4 +156,7 @@ public class LoginFragment extends Fragment {
                     }
                 }).show();
     }
+
+
+
 }
